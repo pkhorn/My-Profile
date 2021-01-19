@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome XO</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <div>
+        <ul>
+            <div id="drawer-icon">
+                <img src="img/hamburger-menu.png" width="25">
+            </div>
+            <li>Home</li>
+            <li>Profile</li>
+            <li><a href="mailto:theunikhorn@gmail.com?subject=hello&body=test">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div>
+        It's <span id="currTurn">X</span>'s turn!
+    </div>
+
+    <div>
+        <table class="xo-table">
+            <tr>
+                <td id="xo-1" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+                <td id="xo-2" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+                <td id="xo-3" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+            </tr>
+            <tr>
+                <td id="xo-4" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+                <td id="xo-5" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+                <td id="xo-6" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+            </tr>
+            <tr>
+                <td id="xo-7" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+                <td id="xo-8" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+                <td id="xo-9" class="xo-cell xo-cell-notclicked xo-cell-hover"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <span id="winnerAnnouncement"></span>
+    </div>
+    <div>
+        <span id="reset-btn">Reset Button</span>
+    </div>
+    
+
+</body>
+
+<script src='main.js'></script>
+
+</html>
